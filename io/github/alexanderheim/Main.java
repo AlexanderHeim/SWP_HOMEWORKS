@@ -17,7 +17,7 @@ public class Main {
             System.out.println(i + " -> " + stringBits[i]);
         }*/
 
-        UserInputScanner s = new UserInputScanner("C:\\Users\\Alex\\Desktop\\inputs.txt");
+        UserInputScanner s = new UserInputScanner("------------------------------");
         try{
             String input = s.getText();
             for(String str : StringConverter.convert(input, 2)){
